@@ -4,16 +4,16 @@
     font-family: "Fira sans", sans-serif;
 
 }
-main{
+.main{
     margin-left: 160px;
     margin-right: 160px;
     background-color: #f0f0f0;
     align-content: center;
 }
 .nav-main{
-    width: 100%;
+    width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0px;
     margin: 20px;
@@ -47,4 +47,35 @@ main{
 .pillers-box img{
     width: 64px;
     height: 64px;
+}
+.pillers-box{
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;  
+    align-content: center;
+}
+.box{
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.second-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 80%;
+}
+.quoat{
+    background-image: url("./assets/quote-bg.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer > div > div > img{
+    padding-left: 20px;
 }
