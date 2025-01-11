@@ -54,23 +54,20 @@
                 <p>Creating a nationwide digital ecosystem to enhance connectivity and access to services for all
                     citizens.
                 </p><br>
-                <button class="all-btn">Learn More</button>
             </div>
             <div class="box">
                 <img src="./assets/card-icon.png" alt="card Icon">
-                <h3>Sustainability</h3>
+                <h3>Sustainability</h3><br>
                 <p>Investments in solar and wind energy to ensure a sustainable and eco-friendly future.</p><br>
-                <button class="all-btn">Learn More</button>
+                
             </div>
             <div class="box"><img src="./assets/card-icon.png" alt="card Icon">
                 <h3>Infrastructure</h3><br>
                 <p>Building state-of-the-art infrastructure to support economic growth and global competitiveness.</p><br>
-                <button class="all-btn">Learn More</button>
             </div>
             <div class="box"><img src="./assets/card-icon.png" alt="card Icon">
                 <h3>Empowerment</h3><br>
                 <p>Building state-of-the-art infrastructure to support economic growth and global competitiveness.
-                </p><br><button class="all-btn">Learn More</button>
             </div>
         </div>
 
@@ -112,13 +109,17 @@
         <div class=" s2 Bold-points">Your Opinion Matters</div>
         <div class="opinion">
             <table>
-                <thead>Questions</thead>
-                <thead>Answers</thead>
-                <tbody>
+                <thead class="table-head">
+                    <tr>
+                        <td>Questions</td>
+                        <td>Select Option</td>
+                    </tr>
+                </thead>
+                <tbody >
                     <tr>
                         <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
                         <td>
-                            <select name="selection">
+                            <select class="selection">
                                 <option value="Yes">Yes, I Agree </option>
                                 <option value="no">No, I dont Agree</option>
                             </select>
@@ -127,7 +128,7 @@
                     <tr>
                         <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
                         <td>
-                            <select name="selection">
+                            <select class="selection">
                                 <option value="Yes">Yes, I Agree </option>
                                 <option value="no">No, I dont Agree</option>
                             </select>
@@ -136,7 +137,7 @@
                     <tr>
                         <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
                         <td>
-                            <select name="selection">
+                            <select class="selection">
                                 <option value="Yes">Yes, I Agree </option>
                                 <option value="no">No, I dont Agree</option>
                             </select>
@@ -145,11 +146,13 @@
                 </tbody>
             </table>
         </div>
-
+        <div class="recent">
         <div class="Bold-points">Recent News</div>
+        <br>
         <p>Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting
             inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation,
-            and robust infrastructure, the country is set to become a global model of development.</p>
+            and robust infrastructure, the country is set to become a global model of development.</p><br>
+        </div>
         <div class="news-banner1">
             <div class="news-img">
                 <img src="./assets/satelite.png" alt="Image of Bangladesh 1st Satallite" height="px" width="300px" style="border-radius: 15px;"">
@@ -183,22 +186,27 @@
         <!-- donate now -->
         <div class="donate-section">
             <div class="doante">
-                <h2>Donate Today</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut voluptates dignissimos unde quod?
-                    Laboriosam tempora nulla enim alias, obcaecati, ipsa mollitia perferendis rerum atque accusantium
-                    odit
-                    ab sapiente. Obcaecati?</p>
+                <h1>Donate Today</h1><br>
+                <p>In a defining moment of our history, Bangladesh is undergoing a monumental transformation. After more than 15 years under a regime marked by corruption, oppression and exploitation, a courageous revolution led by our students has ignited a new era. The fall of this autocratic government has paved the way for an unprecedented opportunity to rebuild our beloved nation under the interim leadership of Dr. Muhammad Yunus—Nobel laureate, visionary economist, and a beacon of hope. This new chapter, "Bangladesh 2.0," represents not just a political shift, but the rekindling of our national spirit.</p>
             </div>
-            <div>
-                <button class="taka1">100 Taka</button>
-                <button class="taka2">200 Taka</button>
-                <button class="taka3">500 Taka</button>
-                <button class="taka4">1000 Taka</button>
+            <div class="taka">
+                <button class="btn all-btn">100 Taka</button>
+                <button class="btn all-btn extrabtn">200 Taka</button>
+                <button class="btn all-btn">500 Taka</button>
+                <button class="btn all-btn">1000 Taka</button>
             </div>
-            <input id="donate-box" type="text" placeholder="Enter Amount"><br>
+            <input id="donate-box" type="text" placeholder="Enter Amount"><br><br>
             <button class="all-btn explore-new">Donate now</button>
         </div>
+        <div class="sub">
+            <h2>Subscribe Newsletter</h2><br>
+            <p>Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth.</p>
+            <br><br>
+            <input id="in" type="email" placeholder="Enter your Email"><button class="explore-new" type="submit">Subscribe</button><br><br>
+            <p>We Promice not to spam you!</p>
+        </div>
     </div>
+
 </body>
 
 

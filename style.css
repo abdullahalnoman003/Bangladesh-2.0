@@ -9,7 +9,7 @@
     background-color: #f5f5f5;
 }
 body{
-    margin: 0 auto;
+    
 }
 .nav-main{
     display:flex;
@@ -68,7 +68,6 @@ body{
     width: 350px;
 }
 .Bold-points{
-    margin-left: 80 auto;
     font-weight: bold;
     font-size: 30px;
 
@@ -78,13 +77,15 @@ body{
     height: 64px;
 }
 .pillers-box{
-    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
     display: flex;
     justify-content:space-between;  
     gap: 20px;
 }
 .box{
-    padding: 40px;
+    padding: 20px;
     box-shadow: 2px 2px 5px gray;
     border-radius: 7px;
     background-color: white;
@@ -128,9 +129,9 @@ footer{
 }
 
 .donate-section{
-    justify-content: space-around;
-    padding: 25px;
-    width: 80%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 .s2{
@@ -196,4 +197,83 @@ hr{
     padding: 10px;
     border-radius: 5px;
     background-color: #ffc239;
+}
+.taka{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:  white;
+    border: none;
+    border-radius: 5px;
+}
+#donate-box{
+    background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    text-align: center;
+    width: 80%;
+    height: 5px;
+}
+.extrabtn{
+    border-radius: 5px;
+    padding: 10px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:  rgb(14, 221, 83);
+    border: none;
+    border-radius: 5px;
+}
+.recent{
+    padding: 20px;
+    text-align: left;
+}
+.opinion{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.sub{
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color:#c6e4d6;
+    border-radius: 10px;
+}
+#in{
+    color: white;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+.table-head{
+    color: black;
+    background-color: #c6e4d6;
+}
+.selection{
+    background-color: #c6e4d6;
+}
+.table-body{
+    border: 2px solid #000000;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #000000;
+    padding: 10px;
 }
