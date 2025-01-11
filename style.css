@@ -6,6 +6,7 @@
 .main{
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #f5f5f5;
 }
 body{
     margin: 0 auto;
@@ -77,20 +78,25 @@ body{
     height: 64px;
 }
 .pillers-box{
+    padding: 30px;
     display: flex;
-    border: 2px solid grey;
     justify-content:space-between;  
     gap: 20px;
 }
 .box{
-    border: 2px solid grey;
-    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 7px;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    text-align: left;
 }
 .second-content{
+    padding: 60px;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    background-color: #ffffff;
+    justify-content: space-evenly;
+    gap: 50px;
     border-radius: 10px;
 }
 .second-box{
@@ -107,6 +113,13 @@ body{
     background-image: url("./assets/quote-bg.png");
     background-position: top left;
     background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid rgb(172, 170, 170);
+    margin-left: 40px;
+
+
 }
 footer{
     text-align: center;
@@ -120,7 +133,10 @@ footer{
     width: 80%;
 }
 
-
+.s2{
+    margin-left: 40px;
+    padding: 20px;
+}
 
 
 footer > div > div > img{
@@ -131,8 +147,53 @@ hr{
     width: 80%;
 }
 .news-banner1{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
     display: flex;
+    gap: 20px;
     padding: 20px;
     text-align: left;
-    
+    font-size: small;
+}
+.second-box1{
+    background-color: #d5e1f5 ;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+}
+.second-box1> button{
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #5490f5;
+}
+.second-box2{
+    background-color: #c6e4d6 ;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+}
+.second-box2> button{
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #09a15c;
+}
+.second-box3{
+    background-color: #f7ebcf ;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+}
+.second-box3> button{
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffc239;
 }
